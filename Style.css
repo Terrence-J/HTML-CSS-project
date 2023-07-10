@@ -1,0 +1,338 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #c2a377;
+  /*background-image: url('background.jpg');*/
+}
+
+.Navbar {
+  overflow: hidden;
+  background-color: #f8f3f6;
+  flex-wrap: wrap;
+}
+
+.Navbar a {
+  float: left;
+  color: #090807;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 20%;
+
+}
+
+footer{
+
+  overflow: hidden;
+  background-color: #11090F;
+
+}
+
+.Navbar-footer{
+  text-align-last: center;
+
+}
+
+.Navbar-footer a{
+
+text-align: center;
+align-content: center;
+padding: 15px 16px;
+text-decoration: none;
+font-size: 13px;
+color: white;
+padding-left: auto;
+right: 50%;
+
+
+}
+
+
+.Navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  display: flex;
+}
+
+.Navlogo{
+  margin: 0px;
+  /*padding-inline-end: inherit;*/
+  height: 5px;
+}
+
+.Navlogo img {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-bottom: 0px;
+}
+
+.Navlogo-footer{
+  float: left;
+  /*height: 5px;
+  margin-bottom: 5px;*/
+}
+
+.Navlogo-footer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-bottom: 0px;
+}
+
+
+.Navbar-right {
+  float: none;
+  position: absolute;
+  top: 4%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+.button{
+  background-color: #b09391;
+  border-color: black;
+  color: black;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  margin-right: auto;
+  border-radius: 30px;
+  float: right;
+
+}
+
+.Picture img{
+  width: 350px;
+  height: 400px;
+  float: right;
+  margin-right: 150px;
+  margin-left: 240px;
+  border-radius: 100%;
+  box-shadow: 5px 10px;
+
+}
+
+.Card-1{
+  width: 350px;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: 70px;
+  float: left;
+  text-align: left;
+
+}
+
+.tbutton1
+{
+  padding: 5px 5px;
+  background-color: #b09391 ;
+  color: black;
+
+}
+
+
+.tbutton2
+{
+  padding: 5px 5px;
+  background-color: #b09391 ;
+  color: black;
+  margin-left: 2px;
+}
+
+
+.Card-1 button{
+float: left;
+width: 150px;
+display: inline-block;
+}
+
+/*.tbutton1{
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+
+}
+
+.tbutton2{
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}*/
+
+
+.content {
+  margin-top: 100px;
+  padding: 0px;
+  display: flex;
+  background-image: url('coffBack.jpg');
+}
+
+
+.grid-heading{
+  display: flex;
+  margin-right: 200px;
+
+}
+
+.grid-item{
+  margin-top: 50px;
+  margin-left: 200px;
+  justify-items: center;
+  text-align: center;
+  box-shadow: 10px 10px #b09391;
+}
+
+.grid-item img{
+
+  width: 150px;
+  height: 150px;
+ /* border-radius: 80%;*/
+
+}
+
+.section1{
+  text-align: center;
+  margin-top: 100px;
+
+}
+.Testemonies{
+  flex-wrap: wrap;
+}
+
+.Testemonies h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Testemonies h3{
+  /*text-align: left;*/
+  margin-bottom: 0%;
+  margin-left: 300px;
+}
+
+ .Sub_teste{
+  margin-left: 300px;
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+ }
+
+.Sub_teste img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-right: 100px;
+}
+
+ .card-container{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+ }
+
+.card-item{
+  background-color: white;
+  width: 270px;
+  margin: 5px;
+  border-radius: 15px;
+
+}
+
+.image{
+  background-color: brown;
+  height: 300px;
+  /*margin-bottom: 10px;*/
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.car-1{
+  background-image: url('cardCoff1.jpg');
+}
+
+.car-2{
+  background-image: url('cardCoff2.jpg');
+}
+
+.car-3{
+  background-image: url('cardCoff3.jpg');
+}
+
+.car-4{
+  background-image: url('cardCoff4.jpg');
+}
+
+.card-item a{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.card-item a:hover{
+
+  background-color: #b09391;
+  cursor: default;
+  color: black;
+
+}
+.card-item:hover{
+
+  background-color: #ffd8b1;
+  cursor: pointer;
+  transform: scale(1.03);
+  color: white;
+}
+
+.icons{
+  margin-left: 300px;
+}
+
+.icons i{
+  margin-right: 50px;
+}
+
+.icons-footer{
+  float: right;
+
+}
+
+.icons-footer i{
+  margin-left: 50px;
+}
+/*.Picture {
+  margin-right: 100px;
+  float: right;
+}*/
+
+/*.Card-1{
+   
+  width: 350px;
+  height: 350px;
+  /*margin-right: 50px;
+  margin-top: 20px;
+}
+
+.Picture img {
+  /*margin-left: 50px;
+  margin-right: 500px;*
+  width: 350px;
+  height: 350px;
+  float: right;
+}*/
+
+
